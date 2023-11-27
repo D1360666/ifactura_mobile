@@ -16,7 +16,7 @@ import java.util.List;
 @Dao
 public interface iRenglonDao {
     @Query("SELECT * FROM Renglon")
-    LiveData<List<Factura>> findAll();
+    LiveData<List<Renglon>> findAll();
 
     @Insert
     void insert(Renglon renglon);

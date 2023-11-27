@@ -13,7 +13,7 @@ import com.example.facturacionmovil.entities.Articulo;
 import com.example.facturacionmovil.entities.Factura;
 import com.example.facturacionmovil.entities.Renglon;
 
-@Database(entities = {Articulo.class, Factura.class, Renglon.class}, version=1)
+@Database(entities = {Articulo.class, Factura.class, Renglon.class}, version=2)
 public abstract class AppDatabase extends RoomDatabase {
     public abstract iFacturaDao facturaDao();
     public abstract iArticuloDao articuloDao();
